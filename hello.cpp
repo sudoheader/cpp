@@ -17,7 +17,8 @@ int main()
     int a = 3;
     int b = 4;
     string yourname = "Raymond";
-    cout << "Score: " << a << " " << yourname << "\n";
+    bool boolVar = true;
+    cout << "Score: " << a << " " << boolVar << "\n";
     // secondMain();
     // thirdMain();
 }
