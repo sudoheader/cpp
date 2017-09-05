@@ -14,7 +14,7 @@ int main()
 {
     int a = 3;
     int b = 4;
-    int answer;
+    double answer;
     string yourname = "Raymond";
     bool boolVar = true;
     answer = a + b;
