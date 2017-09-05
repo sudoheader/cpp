@@ -14,7 +14,9 @@ void thirdMain()
 
 int main()
 {
-    cout << "Hello, world!\n";
-    secondMain();
-    thirdMain();
+    int a = 3;
+    int b = 4;
+    cout << "Score: " << a << " " << b << "\n";
+    // secondMain();
+    // thirdMain();
 }
