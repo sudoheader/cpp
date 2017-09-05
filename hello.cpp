@@ -16,7 +16,8 @@ int main()
 {
     int a = 3;
     int b = 4;
-    cout << "Score: " << a << " " << b << "\n";
+    string yourname = "Raymond";
+    cout << "Score: " << a << " " << yourname << "\n";
     // secondMain();
     // thirdMain();
 }
