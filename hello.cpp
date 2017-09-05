@@ -14,9 +14,11 @@ int main()
 {
     int a = 3;
     int b = 4;
+    int answer;
     string yourname = "Raymond";
     bool boolVar = true;
-    cout << "Score: " << GlobalA << "\n";
+    answer = a + b;
+    cout << "Score: " << answer << "\n";
     secondMain();
     // thirdMain();
 }
