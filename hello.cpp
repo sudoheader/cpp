@@ -3,13 +3,11 @@
 #include <iostream>
 using namespace std;
 
+int GlobalA = 9;
+
 void secondMain()
 {
-    cout << "In secondMain!\n";
-}
-void thirdMain()
-{
-    cout << "In thirdMain!\n";
+    cout << "In secondMain! " << GlobalA << "\n";
 }
 
 int main()
@@ -18,7 +16,7 @@ int main()
     int b = 4;
     string yourname = "Raymond";
     bool boolVar = true;
-    cout << "Score: " << a << " " << boolVar << "\n";
-    // secondMain();
+    cout << "Score: " << GlobalA << "\n";
+    secondMain();
     // thirdMain();
 }
