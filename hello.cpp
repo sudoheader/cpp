@@ -3,14 +3,18 @@
 #include <iostream>
 using namespace std;
 
-int secondMain()
+void secondMain()
 {
     cout << "In secondMain!\n";
+}
+void thirdMain()
+{
+    cout << "In thirdMain!\n";
 }
 
 int main()
 {
-    secondMain();
     cout << "Hello, world!\n";
     secondMain();
+    thirdMain();
 }
