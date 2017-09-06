@@ -5,20 +5,14 @@ using namespace std;
 
 int GlobalA = 9;
 
-void secondMain()
+void secondMain(int aSecondMain)
 {
-    cout << "In secondMain! " << GlobalA << "\n";
+    cout << "In secondMain! " << aSecondMain << "\n";
 }
 
 int main()
 {
-    int a = 3;
-    int b = 4;
-    double answer;
-    string yourname = "Raymond";
-    bool boolVar = true;
-    answer = a + b;
-    cout << "Score: " << answer << "\n";
-    secondMain();
-    // thirdMain();
+    int aMain = 3;
+    cout << "Score: " << aMain << "\n";
+    secondMain(aMain);
 }
