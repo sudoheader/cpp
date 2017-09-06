@@ -13,7 +13,8 @@ void secondMain(int aSecondMain)
 int main()
 {
     int aMain = 3;
-    if(aMain != 2)
+    int bMain = 9;
+    if((aMain == 1) || (bMain == 1))
     {
         aMain = aMain + 1;
     }
