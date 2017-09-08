@@ -18,7 +18,7 @@ pair<int,int> find_limits (int* data, size_t length)
 
 int main () 
 {
-  int data[] = { 4, 2, 0, 9, 8 };
+  int data[] = { 4, 2, 1, 9 };
   
   pair<int, int>  limits(find_limits(data, sizeof(data) / sizeof(int)));
   
